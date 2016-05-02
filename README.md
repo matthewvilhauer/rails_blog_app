@@ -31,7 +31,7 @@
   * `POST /login` or `POST /sessions`
   * `GET /logout`
 
-**If you get stuck at any point or need extra guidance, feel free to look at the [solution branch](https://github.com/sf-wdi-24/rails_blog_app/tree/solution) or follow along with the <a href="https://www.railstutorial.org/book" target="_blank">*Ruby on Rails Tutorial* by Michael Hartl</a>.**
+**If you get stuck at any point or need extra guidance, feel free to look at the [solution branch](https://github.com/sf-wdi-27-28/rails_blog_app/tree/solution) or follow along with the <a href="https://www.railstutorial.org/book" target="_blank">*Ruby on Rails Tutorial* by Michael Hartl</a>.**
 
 ## Bonus
 
@@ -40,7 +40,7 @@
   * If `current_user` is the same `@user` found by the `id` in the URL params, the user is authorized to update and delete.
 * Another step to authorization is making sure the `current_user` cannot sign up or log in again. Use the `current_user` method in your controllers to authorize those routes as well.
 
-Refer to the [solution_authorization branch](https://github.com/sf-wdi-24/rails_blog_app/tree/solution_authorization) for guidance.
+Refer to the [solution_authorization branch](https://github.com/sf-wdi-27-28/rails_blog_app/tree/solution_authorization) for guidance.
 
 ## Submission
 
